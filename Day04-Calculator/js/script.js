@@ -88,3 +88,8 @@ buttons.forEach((keyBtn) => {
     }
   });
 });
+
+//.substring(0, valueField.value.length)
+// if (digit === "." && this.currentOperationText.innerText.includes(".")) {
+//   return;
+// }

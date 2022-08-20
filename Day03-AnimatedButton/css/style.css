@@ -124,6 +124,7 @@ h1 {
     z-index: 10;
 }
 
+
 .toggle-button .checkbox:checked + .circle-button:before {
 	content: '';
 	left: 98px;

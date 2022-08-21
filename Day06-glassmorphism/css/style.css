@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	/* Variaveis de cores */
+	--bg-dark1: #21232C;
+	--bg-dark2: #161B22;
+	--bg-white1: #FFFFFF;
+	--bg-white2: #E4E7EC;
+	--text-dark: #1C2431;
+	--text-white: #FBFBFB;
+	--tomato: #FF5252;
+	--green: #00DF89;
+
+	font-size: 62.5%;
+}
+
+body {
+	background: url(../images/bg-intro.jpg);
+	background-size: cover;
+	color: #1C2431;
+	transition: all 0.2s linear;
+}
+
+h1 {
+	font-size: 36px;
+	color: var(--bg-white1);
+}
+
+.content {
+	width: 96%;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.top {
+	background: rgba( 255, 255, 255, 0.15 );
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	margin-top: 20px;
+	padding: 20px;
+	width: 320px;
+	text-align: center;
+}
+
+
+.profile {
+	width: 320px;
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 8px 32px 0 rgba(3, 8, 37, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	text-align: center;
+	margin-top: 20px;
+	padding: 4rem 2rem 1rem 2rem;
+	border-radius: .8rem;
+	color: var(--bg-white1);
+}
+
+.picture {
+	width: 18rem;
+	border-radius: 50%;
+	border: .8rem solid var(--green);
+}
+
+.profile h1 {
+	font-family: "Poppins", sans-serif;
+	color: var(--bg-white1);
+	font-size: 3.2rem;
+	margin: 2.4rem 0 1rem 0;
+	font-weight: 700;
+}
+
+.profile p,
+a {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--green);
+}
+
+a:hover {
+	color: var(--bg-white2);
+	transition: all ease .2s;
+}
+
+.profile .social-network {
+	margin-top: 4rem;
+	border-top: .1rem solid var(--blcak1);
+	padding: 4rem 0 2rem 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.social-network li {
+	display: inline;
+	margin: 0 1rem;
+}
+
+.social-network li a img {
+	transition: transform 0.3s;
+}
+
+.social-network li a img:hover {
+	transform: scale(1.1);
+}

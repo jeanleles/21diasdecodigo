@@ -232,10 +232,6 @@ main {
     align-items: center;
 }
 
-.dark-mode {
-	background-color: var(--bg-dark1);
-}
-
 .figure {
 	max-width: 50%;
 }
@@ -295,3 +291,24 @@ input:focus {
 	transform: scale(1.3);
 }
 
+@media only screen and (max-width:768px) {
+	header {
+		padding: 0 8px;
+	}
+	.content {
+		flex-direction: column;
+		margin-top: 90px;
+	}
+
+	input {
+		width: 290px;
+	}
+
+	.nav-menu {
+		display: none;
+	}
+
+	.info {
+		text-align: center;
+	}
+}

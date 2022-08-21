@@ -22,7 +22,6 @@ html {
 body {
 	background: url(../images/bg-intro.jpg);
 	background-size: cover;
-	color: #1C2431;
 	transition: all 0.2s linear;
 }
 

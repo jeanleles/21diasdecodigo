@@ -19,4 +19,5 @@
 #### #Dia06 - Criar um card com o efeito glassmorphism;
 ![Day06glassmorphism](https://user-images.githubusercontent.com/7783578/185774865-4cbcd148-1ba0-4350-a576-551fea9420ec.gif)
 
-#### #Dia07 - Desenvolver um contador; ...
+#### #Dia07 - Desenvolver um contador;
+![Countdown](https://user-images.githubusercontent.com/7783578/186061848-65aba82d-c8b0-47da-87f6-92f5803733ff.gif)

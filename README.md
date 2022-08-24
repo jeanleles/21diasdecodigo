@@ -21,3 +21,6 @@
 
 #### #Dia07 - Desenvolver um contador;
 ![Countdown](https://user-images.githubusercontent.com/7783578/186061848-65aba82d-c8b0-47da-87f6-92f5803733ff.gif)
+
+#### #Dia08 - Criar um Toggle Dark/Light mode;
+![Day08-ToogleDarkLightMode](https://user-images.githubusercontent.com/7783578/186311465-df3acd7c-1d42-474c-977c-fe46ff1bd79b.gif)

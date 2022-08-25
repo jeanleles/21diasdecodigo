@@ -24,3 +24,6 @@
 
 #### #Dia08 - Criar um Toggle Dark/Light mode;
 ![Day08-ToogleDarkLightMode](https://user-images.githubusercontent.com/7783578/186311465-df3acd7c-1d42-474c-977c-fe46ff1bd79b.gif)
+
+#### #Dia09 - Criar uma animacao de Loading;
+![Day09-Loading](https://user-images.githubusercontent.com/7783578/186567688-9557697b-e947-445d-8bba-5a743fc78286.gif)

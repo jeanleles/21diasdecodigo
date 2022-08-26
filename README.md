@@ -27,3 +27,6 @@
 
 #### #Dia09 - Criar uma animacao de Loading;
 ![Day09-Loading](https://user-images.githubusercontent.com/7783578/186567688-9557697b-e947-445d-8bba-5a743fc78286.gif)
+
+#### #Day10 - Utilizar a lib Particles.js 
+![Day10-Particlejs](https://user-images.githubusercontent.com/7783578/186809769-00403597-4cf8-47b5-b53d-57a28c88e345.gif)

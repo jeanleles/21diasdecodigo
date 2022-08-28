@@ -33,3 +33,6 @@
 
 #### #Day11 - Criar um Formulario de Login
 ![Day11-LoginForm](https://user-images.githubusercontent.com/7783578/187012452-ad38fc4c-ca56-485f-ac93-01e3783e15b9.gif)
+
+#### #Day12 - Criar uma galeria de imagens
+![Screenshot_1](https://user-images.githubusercontent.com/7783578/187086746-aabf2f06-899c-4271-a4a6-d6da4c7ee5a2.jpg)

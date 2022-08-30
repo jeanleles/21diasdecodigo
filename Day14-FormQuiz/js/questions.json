@@ -1,0 +1,48 @@
+{
+    "questions": [
+      {
+        "id_question": 1,
+        "question": "Qual a soma de 2 + 3?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct_answer": 4
+      },
+      {
+        "id_question": 2,
+        "question": "Qual a capital do Brazil?",
+        "answers": [
+          "Sao Paulo",
+          "Rio de Janeiro",
+          "Brasilia",
+          "Salvador"
+        ],
+        "correct_answer": 3
+      },
+      {
+        "id_question": 3,
+        "question": "Qual a capital do Para?",
+        "answers": [
+          "Sao Paulo",
+          "Belem",
+          "Brasilia",
+          "Salvador"
+        ],
+        "correct_answer": 2
+      },
+      {
+        "id_question": 4,
+        "question": "Qual a capital do Ceara?",
+        "answers": [
+          "Fortaleza",
+          "Belem",
+          "Brasilia",
+          "Salvador"
+        ],
+        "correct_answer": 1
+      }
+    ]
+  }

@@ -3,46 +3,57 @@
       {
         "id_question": 1,
         "question": "Qual a soma de 2 + 3?",
-        "answers": [
-          "2",
-          "3",
-          "4",
-          "5"
-        ],
-        "correct_answer": 4
+        "answer1": "2",
+        "answer2": "3",
+        "answer3": "4",
+        "answer4": "5",
+        "correct_answer": "answer4"
       },
       {
         "id_question": 2,
-        "question": "Qual a capital do Brazil?",
-        "answers": [
-          "Sao Paulo",
-          "Rio de Janeiro",
-          "Brasilia",
-          "Salvador"
-        ],
-        "correct_answer": 3
+        "question": "Qual a soma de 1 + 1?",
+        "answer1": "2",
+        "answer2": "3",
+        "answer3": "4",
+        "answer4": "5",
+        "correct_answer": "answer1"
       },
       {
         "id_question": 3,
-        "question": "Qual a capital do Para?",
-        "answers": [
-          "Sao Paulo",
-          "Belem",
-          "Brasilia",
-          "Salvador"
-        ],
-        "correct_answer": 2
+        "question": "Qual a soma de 3 + 3?",
+        "answer1": "2",
+        "answer2": "3",
+        "answer3": "6",
+        "answer4": "8",
+        "correct_answer": "answer3"
       },
       {
         "id_question": 4,
-        "question": "Qual a capital do Ceara?",
-        "answers": [
-          "Fortaleza",
-          "Belem",
-          "Brasilia",
-          "Salvador"
-        ],
-        "correct_answer": 1
+        "question": "Qual a soma de 2 + 2?",
+        "answer1": "2",
+        "answer2": "4",
+        "answer3": "6",
+        "answer4": "8",
+        "correct_answer": "answer2"
+      },
+      {
+        "id_question": 5,
+        "question": "Qual a soma de 4 + 3?",
+        "answer1": "2",
+        "answer2": "3",
+        "answer3": "7",
+        "answer4": "9",
+        "correct_answer": "answer3"
+      },
+      {
+        "id_question": 6,
+        "question": "Qual a soma de 8 + 3?",
+        "answer1": "8",
+        "answer2": "3",
+        "answer3": "4",
+        "answer4": "5",
+        "correct_answer": "answer1"
       }
+
     ]
   }

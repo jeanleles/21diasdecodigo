@@ -1,18 +1,16 @@
-let questions
-let aleatorio
-
-async function loadQuestions() {
-    const data = await fetch('./js/questions.json')
-    questions = await data.json()
-    
-    questions.forEach(question => {
-        createQuestion(question)
-    })
+function loadQuestions() {
+    return fetch('./js/questions.json')
 }
 
-function selectQuestion(question) {
+const createQuestion = async () => {
+    const data = await loadQuestions()
+    const result = await data.json()
+    console.log(result.questions[2].question)
     
+    const aleatorio = Math.floor(Math.random() * result.questions.length)
+    console.log(aleatorio)
 }
 
-//aleatorio = Math.floor(Math.random() * questions.length)
+createQuestion()
+
 

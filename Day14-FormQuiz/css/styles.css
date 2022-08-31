@@ -48,7 +48,7 @@ h3 {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 3.6rem;
 }
 
 h2 {
@@ -159,7 +159,7 @@ main .msg {
   width: 100%;
 }
 
-.play-stop {
+.btn {
   margin: 0 10px;
   border-radius: 8px;
   padding: 8px 20px;
@@ -170,10 +170,59 @@ main .msg {
   cursor: pointer;
 }
 
-.play-stop:hover {
+.btn:hover {
   filter: brightness(0.8);
 }
 
-.play-pause {
-  font-size: 1.4rem;
+.question-wrapper {
+  padding: 20px;
+}
+
+.question-wrapper p {
+  text-align: left;
+  margin: 20px 0;
+}
+
+
+.answers {
+  list-style: none;
+}
+
+.answers li {
+  margin: 20px 0;
+  background: #404040;
+  padding: 10px 16px;
+  width: 90%;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all ease .2s;
+}
+
+.answers li:hover {
+  background: #a6a6a6;
+}
+
+.esconde {
+  display: none;
+}
+
+.correct {
+  background: #33cc80 !important;
+}
+
+.wrong {
+  background: #cc3333 !important;
+}
+
+#btnNext {
+  margin-left: 20px;
+}
+
+.result {
+  margin: 0 40px;
+}
+
+.result h1, .result h2 {
+  margin: 12px 0;
 }

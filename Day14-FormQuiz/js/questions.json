@@ -2,57 +2,48 @@
     "questions": [
       {
         "id_question": 1,
-        "question": "Qual a soma de 2 + 3?",
-        "answer1": "2",
-        "answer2": "3",
-        "answer3": "4",
-        "answer4": "5",
-        "correct_answer": "answer4"
+        "question": "Qual das linguagens abaixo é interpretada?",
+        "answer1": "Java",
+        "answer2": "JavaScript",
+        "answer3": "C++",
+        "answer4": "Delphi",
+        "correct_answer": "answer2"
       },
       {
         "id_question": 2,
-        "question": "Qual a soma de 1 + 1?",
-        "answer1": "2",
-        "answer2": "3",
-        "answer3": "4",
-        "answer4": "5",
+        "question": "Qual opção abaixo é um Framework?",
+        "answer1": "Agular",
+        "answer2": "React",
+        "answer3": "Particle.js",
+        "answer4": "Moment.js",
         "correct_answer": "answer1"
       },
       {
         "id_question": 3,
-        "question": "Qual a soma de 3 + 3?",
-        "answer1": "2",
-        "answer2": "3",
-        "answer3": "6",
-        "answer4": "8",
+        "question": "Qual das linguagens abaixo é compilada?",
+        "answer1": "Ruby",
+        "answer2": "Python",
+        "answer3": "C#",
+        "answer4": "PHP",
         "correct_answer": "answer3"
       },
       {
         "id_question": 4,
-        "question": "Qual a soma de 2 + 2?",
-        "answer1": "2",
-        "answer2": "4",
-        "answer3": "6",
-        "answer4": "8",
-        "correct_answer": "answer2"
+        "question": "Qual opção abaixo é um biblioteca?",
+        "answer1": "Angular",
+        "answer2": "Vue.js",
+        "answer3": "Ionic",
+        "answer4": "React",
+        "correct_answer": "answer4"
       },
       {
         "id_question": 5,
-        "question": "Qual a soma de 4 + 3?",
-        "answer1": "2",
-        "answer2": "3",
-        "answer3": "7",
-        "answer4": "9",
-        "correct_answer": "answer3"
-      },
-      {
-        "id_question": 6,
-        "question": "Qual a soma de 8 + 3?",
-        "answer1": "8",
-        "answer2": "3",
-        "answer3": "4",
-        "answer4": "5",
-        "correct_answer": "answer1"
+        "question": "O que significa a sigla API?",
+        "answer1": "Association Programing Internacional",
+        "answer2": "Application Programming Interface",
+        "answer3": "Aplication Internal",
+        "answer4": "Nenhuma das opções acima",
+        "correct_answer": "answer2"
       }
 
     ]

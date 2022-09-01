@@ -4,7 +4,7 @@ const clock = document.getElementById('clock')
 const msg = document.querySelector('.msg')
 clock.innerText = '02:00'
 
-const startingMinutes = 25
+const startingMinutes = 2
 
 let time = startingMinutes * 60
 let flag = true
@@ -102,6 +102,7 @@ function nextQuestion() {
         })
     } else {
         setTimeout(() => {
+            flag = true
             const msg = respostasCertas > 2 ? 'Parabéns! Você foi muito bem.' : 'Você precisa melhorar. Boa sorte na próxima!'
             document.querySelector('.content').innerHTML = `<div class="result">
                 <h1>Quiz finalizado!</h1>

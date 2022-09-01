@@ -65,13 +65,8 @@ button {
   outline: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .container {
-  width: 840px;
+  width: 780px;
   height: auto;
   margin: 40px auto;
   padding: 6  0px 0;
@@ -168,6 +163,7 @@ main .msg {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .btn:hover {
@@ -176,6 +172,7 @@ main .msg {
 
 .question-wrapper {
   padding: 20px;
+  transition: all ease-in .2;
 }
 
 .question-wrapper p {
@@ -221,6 +218,7 @@ main .msg {
 
 .result {
   margin: 0 40px;
+  transition: all ease-in .2;
 }
 
 .result h1, .result h2 {

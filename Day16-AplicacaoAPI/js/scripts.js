@@ -54,7 +54,7 @@ function fillUser() {
     wrapperProfile.innerHTML = `
         <img src="${githubUser.avatar_url}" alt="">
         <h1>${githubUser.name}</h1>
-        <a href="#">${githubUser.login}</a>
+        <a href="${githubUser.html_url}" target="_blank">${githubUser.login}</a>
         <p>${githubUser.bio}</p>
         <div class="follow">
             <p><span>${githubUser.followers}</span> Followers · Following ${githubUser.following}</p>

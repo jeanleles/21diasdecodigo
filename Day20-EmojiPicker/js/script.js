@@ -164,44 +164,40 @@ function showEmojis() {
 
 showEmojis()
 
+function showMessage() {
+  document.querySelector(".myTooltip").classList.add('tooltiptext');
+  setTimeout(() => {
+    document.querySelector(".myTooltip").classList.remove('tooltiptext');
+  }, "2000")
+}
+
+const campomoji = document.querySelector('.campomoji')
+
+function showTooltip() {
+  const campomoji = document.querySelector('.campomoji')
+  campomoji.select();
+  campomoji.setSelectionRange(0, 2);
+  navigator.clipboard.writeText(campomoji.value);
+  showMessage()  
+  clearSelection()
+}
+
 const allSpans = document.querySelectorAll('.wrapper-emojis span')
 const spans = Array.from(allSpans)
-
-const display = document.querySelector('.emoji')
 
 function selectEmoji() {
   spans.map((span) => {
     span.addEventListener('click', () => {
-      display.innerHTML = span.innerHTML;
+      campomoji.value = span.innerText;
+      showTooltip()
     })
   })
 }
 
 selectEmoji()
 
-
-
-
-// function showMessage() {
-//   document.querySelector(".myTooltip").classList.add('tooltiptext');
-//   setTimeout(() => {
-//     document.querySelector(".myTooltip").classList.remove('tooltiptext');
-//   }, "2000")
-// }
-
-// function showTooltip() {
-//   passwordShow.select();
-//   passwordShow.setSelectionRange(0, 20);
-//   navigator.clipboard.writeText(passwordShow.value);
-//   showMessage()  
-// }
-
-// const btnCopy = document.querySelector('.copy')
-
-// btnCopy.addEventListener('click', () => {
-//   if ( passwordShow.value !== '') {
-//     showTooltip()
-//   } else return
-// })
-
-
+function clearSelection()
+{
+ if (window.getSelection) {window.getSelection().removeAllRanges();}
+ else if (document.selection) {document.selection.empty();}
+}

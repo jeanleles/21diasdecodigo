@@ -11,7 +11,7 @@ const gallery = document.querySelector('.gallery')
 
 function getPhotos() {
   let photoList = ''
-  fetch('https://api.unsplash.com/photos/?client_id=???')
+  fetch('https://api.unsplash.com/photos/?client_id=Zd7QwV5NTfh0Bw1yOqjYqFjadXZOHl41nYUXWrLKhkE')
     .then(function (response) {
       return response.json()
     })

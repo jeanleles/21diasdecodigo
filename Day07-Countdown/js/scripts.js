@@ -4,7 +4,7 @@ const clock = document.getElementById('clock')
 const msg = document.querySelector('.msg')
 clock.innerText = '25:00'
 
-const startingMinutes = 0.2
+const startingMinutes = 25
 
 let time = startingMinutes * 60
 let flag = true
